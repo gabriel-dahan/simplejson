@@ -16,16 +16,23 @@ data = Json.read(path)
 data['object'] = 'new_object'
 
 # Write
-Json.write(data, path, indent = 4) # indent is optional
+Json.write(data, path)
 ```
 
 ## JSON data to class objects
 ### Exemple of conversion
 ```python
 data = {'project': {'name': 'SimpleJSON', 'version': '1.0.1'}, 'author': 'TheGabDooSan'}
-obj = Json.convert_to_obj(data)
+obj = Json.to_obj(data)
 
 print(obj.project.name)    # --> "SimpleJSON"
 print(obj.project.version) # --> "1.0.1"
 print(obj.author)          # --> "TheGabDooSan"
 ```
+
+## Doc
+```python
+class simplejson.Json()
+```
+* `@classmethod read(path, cls = None, object_hook = None, parse_float = None, parse_int = None, parse_constant = None, object_pairs_hook = None, **kwds)`
+* `@classmethod write(data, path, skipkey = False, ensure_ascii = True, check_circular = True, allow_nan = True, cls = None, indent = None, separators = None, default = None, sort_keys = False **kwds)`
