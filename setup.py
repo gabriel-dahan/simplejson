@@ -6,5 +6,4 @@ setup(
     description = 'Simplify JSON',
     author = 'Gabriel D.',
     author_email = 'gabrieldahan05@gmail.com',
-    py_modules = ['simplejson'],
 )
