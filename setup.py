@@ -1,9 +1,13 @@
-from distutils.core import setup
+import setuptools
 
-setup(
-    name = 'SimpleJson',
-    version = '1.0',
-    description = 'Simplify JSON',
-    author = 'Gabriel D.',
-    author_email = 'gabrieldahan05@gmail.com',
+setuptools.setup(
+    name = "simplerjson",
+    version = "1.0",
+    author = "Gabriel D.",
+    description = "A package that simplifies your interactions w/ json files.",
+    url = "https://github.com/gabriel-dahan/simplerjson",
+    packages = setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3"
+    ]
 )
