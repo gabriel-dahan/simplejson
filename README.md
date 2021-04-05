@@ -3,7 +3,7 @@
 ## Read & Write
 
 ### Install and Import the module :
-**Python 3.5.3 or higher.**
+
 Installing the module :
 ```bash
 ~ git clone https://github.com/gabriel-dahan/simpler-json/
