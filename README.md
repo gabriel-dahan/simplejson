@@ -16,6 +16,7 @@ Installing the module :
 ~ py -3 -m pip install -U .
 ```
 _Consider using the `--user` parameter if you're not a root/admin user._
+
 Importing the module :
 ```python
 import simplerjson
