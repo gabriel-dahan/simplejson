@@ -2,14 +2,28 @@
 
 ## Read & Write
 
-### Import the package
+### Install and Import the module :
+**Python 3.5.3 or higher.**
+Installing the module :
+```bash
+~ git clone https://github.com/gabriel-dahan/simpler-json/
+~ cd simpler-json/
+
+# Linux / MacOS
+~ python3 -m pip install -U .
+
+# Windows 
+~ py -3 -m pip install -U .
+```
+_Consider using the `--user` parameter if you're not a root/admin user._
+Importing the module :
 ```python
+import simplerjson
+# or
 from simplerjson import <function>
 
 # Exemple
 from simplerjson import read, to_obj
-# or
-import simplerjson
 ```
 ### Read a JSON file
 ```python
