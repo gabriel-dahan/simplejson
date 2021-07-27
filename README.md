@@ -23,7 +23,7 @@ import simplerjson
 # or
 from simplerjson import <function>
 
-# Exemple
+# Example
 from simplerjson import read, to_obj
 ```
 ### Read a JSON file
@@ -45,7 +45,7 @@ simplerjson.write(data, path)
 ```
 
 ## JSON data to class objects
-### Exemple of conversion
+### Example of conversion
 ```python
 data = {'project': {'name': 'SimpleJSON', 'version': '1.0.1'}, 'author': 'TheGabDooSan'}
 obj = simplerjson.to_obj(data)
