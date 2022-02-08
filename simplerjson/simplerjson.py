@@ -39,7 +39,7 @@ def write(data: dict, path: str,
     with open(path, 'w') as f:
         json.dump(
             data, f, 
-            shipkeys = shipkeys, 
+            shipkeys = skipkeys, 
             ensure_ascii = ensure_ascii, 
             check_circular = check_circular, 
             allow_nan = allow_nan, 
